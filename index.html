@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Completo de Verbos Irregulares en Inglés</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz Completo de Verbos Irregulares en Inglés</h1>
+        
+        <div class="progress">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+        
+        <div class="score-container" id="scoreContainer">
+            Pregunta <span id="currentQuestion">1</span> de <span id="totalQuestions">0</span>
+            <div>Puntuación actual: <span id="currentScore">0</span> / <span id="answeredQuestions">0</span></div>
+        </div>
+        
+        <div id="quizContainer">
+            <div id="questionContainer" class="question-container">
+                <!-- La pregunta actual se mostrará aquí -->
+            </div>
+            
+            <div class="next-instruction" id="nextInstruction">
+                Presiona Enter después de completar los tres campos para verificar y continuar
+            </div>
+        </div>
+        
+        <div class="results" id="results">
+            <h2>Resultados del Quiz</h2>
+            <p>Tu puntuación final es: <span id="finalScore">0</span> / <span id="totalVerbs">20</span></p>
+            <p id="percentageScore"></p>
+            <button class="restart-button" id="restartButton">Intentar de Nuevo</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
